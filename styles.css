@@ -1,0 +1,38 @@
+/*margin para eliminar bordes del navegador, height para que ocupe toda la ventana del navegador*/
+body{
+    height: 100%;
+    margin: 0;
+}
+
+/*display para trabajar con flexbox para centrar el div horizontal y verticalmente*/
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 30vh;
+    height: 30vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    width: 70%;
+    height: 70%;
+    background-color: blue;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    border-radius: 50%;
+    border: 3px solid white;
+} 
